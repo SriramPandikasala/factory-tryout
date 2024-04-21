@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { RootComponent } from './module/RootComponent/RootComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    This is React
+       <RootComponent></RootComponent>
       </>
   )
 }
